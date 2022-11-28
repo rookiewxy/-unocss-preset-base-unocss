@@ -1,0 +1,32 @@
+{
+  "name": "preset-xt-unocss",
+  "version": "0.0.1",
+  "keywords": [
+    "unocss",
+    "unocss-preset",
+    "css"
+  ],
+  "author":"rookiewxy",
+  "repository": "https://github.com/rookiewxy/-unocss-preset-base-unocss.git",
+  "files": [
+    "dist",
+    "*.d.ts",
+    "*.css"
+  ],
+  "scripts": {
+    "build": "unbuild"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "./dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "devDependencies": {
+    "unbuild": "^1.0.1"
+  },
+  "dependencies": {
+    "@unocss/core": "^0.46.5"
+  }
+}
